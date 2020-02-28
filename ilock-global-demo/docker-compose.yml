@@ -1,0 +1,15 @@
+version: '2'
+services:
+
+  # Hazelcast microservice instance 1
+  microservice-instance-1:
+    image: ilock-global-demo:latest
+    container_name:  microservice-instance-1
+    mem_limit: 512MB
+
+  # Hazelcast microservice instance 2
+  microservice-instance-2:
+    image: ilock-global-demo:latest
+    container_name:  microservice-instance-2
+    mem_limit: 512MB
+
